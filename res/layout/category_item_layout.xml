@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.joooonho.SelectableRoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/imgBG"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_background"
+        app:sriv_border_color="#008fea"
+        app:sriv_border_width="1dip"
+        app:sriv_left_bottom_corner_radius="10dp"
+        app:sriv_left_top_corner_radius="10dp"
+        app:sriv_oval="false"
+        app:sriv_right_bottom_corner_radius="10dp"
+        app:sriv_right_top_corner_radius="10dp" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#9cffffff"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+
+</RelativeLayout>
